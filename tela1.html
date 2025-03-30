@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrizes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #3366cc;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #3366cc;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .header {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #444488;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .pagination .page-link {
+            background-color: black;
+            color: white;
+            border: none;
+        }
+        .pagination .page-link:hover {
+            background-color: grey;
+        }
+        .box {
+            background-color: #5555aa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .side-box {
+            background-color: #5555aa;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .matrix-image {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border: 2px solid white;
+        }
+        .footer-box {
+            background-color: #5555aa;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .exercise-link {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="header">Matrizes</div>
+        <nav aria-label="Page navigation example" class="text-center my-3">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link active" href="tela1.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="tela2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="tela3.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="tela4.html">4</a></li>
+                <li class="page-item"><a class="page-link" href="tela5.html">5</a></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="col-md-4 box">
+                <h5>O que é matriz?</h5>
+                <p>A matriz é uma representação de dados, geralmente numéricos, divididos por linhas e colunas. Uma matriz é representada da forma AmxnAmxn. Assim, temos a matriz A, que possui m linhas e n colunas. A matriz M3x2M3x2, por exemplo, possui três linhas e duas colunas. A matriz contém termos representados por aijaij, em que i é a linha que o termo ocupa e j é a coluna que o termo ocupa.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="tela1.jpg" class="matrix-image" alt="Matriz">
+            </div>
+            <div class="col-md-4 side-box">
+                <a href="https://www.todamateria.com.br/matrizes-resumo/" class="exercise-link">Matrizes Explicações</a> 
+                <a href="https://www.youtube.com/watch?v=lZ9onrdpusA" class="exercise-link">Video sobre Matriz</a> 
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4 text-center">
+                <img src="nula.jpg" class="matrix-image" alt="Matriz Especial">
+            </div>
+            <div class="col-md-8 footer-box">
+                <h5>Matrizes especiais:</h5>
+                <p>Existem casos especiais de matriz, como a matriz linha, a matriz coluna, a matriz quadrada, a matriz oposta e a matriz identidade. Podemos realizar operações importantes com as matrizes, como <a href="#">adição</a>, <a href="#">subtração</a> e <a href="#">multiplicação</a>.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
